@@ -1,4 +1,4 @@
-module.exports = function repeater(/* str, options */) {
+module.exports = function repeater(str, options) {
   let { repeatTimes, separator, addition, additionRepeatTimes, additionSeparator} = options;
   if (separator === undefined) separator = '+';
   if (addition === undefined) {
